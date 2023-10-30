@@ -7,3 +7,15 @@ function task1() {
     console.log(sumArr);
 }
 task1();
+
+let a = [-5, 2, 9, -15, 8, 25, 4, 7];
+function taks2() {
+    let arr = [-5, 2, 9, -15, 8, 25, 4, 7];
+    let sumAr = arr.reduce(function(sum, elem) {
+        if (elem > 0 && elem < 10) sum += elem;
+        return sum;
+    }, 0);
+    console.log(sumAr);
+}
+
+taks2();
