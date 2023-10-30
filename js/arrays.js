@@ -19,3 +19,14 @@ function taks2() {
 }
 
 taks2();
+
+function taks3() {
+    let arr = [2, 6, 8, 3, 22, 44, 36];
+    for (i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 !== 0)
+            return false;
+    }
+         return true; 
+}
+
+console.log(taks3());
