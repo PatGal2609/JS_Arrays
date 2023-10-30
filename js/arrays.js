@@ -30,3 +30,16 @@ function taks3() {
 }
 
 console.log(taks3());
+
+function taks4() {
+    let arr = [1, 2, 5, 10, 15, 21];
+    let newarr = [];
+    for (i = 0; i < arr.length; i++) {
+        if (arr[i] % 5 == 0) {
+            newarr.push(i);
+        }
+    }
+    return newarr;
+}
+
+console.log(taks4());
