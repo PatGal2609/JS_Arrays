@@ -43,3 +43,17 @@ function taks4() {
 }
 
 console.log(taks4());
+
+function taks5() {
+    let arr = [ 1, 5, 9, 15, 45, 32, 23];
+    let sumarr = arr.reduce(function(sum, elem) {
+        sum += elem;
+        sum = sum / arr.length + 1;
+        return sum.toFixed(1);
+    }, 0);
+    console.log(sumarr);
+}
+
+taks5();
+
+// Скажите что не так пожалуйста
